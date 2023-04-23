@@ -1,0 +1,42 @@
+#boton-barajar {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#contenedor-cartas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contenedor-cartas div {
+    width: 100px;
+    height: 150px;
+    margin: 0.5rem;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#jugador{
+    display: flex;
+}
+#jugador img{
+    width: 9vw;
+}
+#banca{
+    display: flex;
+
+}
+#banca img{
+    width: 9vw;
+}
+
